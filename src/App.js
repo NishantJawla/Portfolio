@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div>
-      <h1>Welcome back to dailywebcoding</h1>
+      <Navigation />
     </div>
   );
 }

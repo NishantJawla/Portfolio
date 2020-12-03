@@ -1,6 +1,6 @@
 export default {
   nav: {
-    logo: 'CC',
+    logo: 'NJ',
     links: [
       { text: 'Work', to: 'mywork' },
       { text: 'Contact', to: 'mycontact' },
