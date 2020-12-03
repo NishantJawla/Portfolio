@@ -19186,6 +19186,40 @@ video {
   }
 }
 
+@keyframes float{
+  0%{
+    transform: translateY(0px);
+    animation-timing-function: ease-in-out;
+  }
+
+  50%{
+    transform: translateY(-20px);
+    animation-timing-function: ease-in-out;
+  }
+
+  100%{
+    transform: translateY(0px);
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes refloat{
+  0%{
+    transform: translateY(20px);
+    animation-timing-function: ease-in-out;
+  }
+
+  50%{
+    transform: translateY(0px);
+    animation-timing-function: ease-in-out;
+  }
+
+  100%{
+    transform: translateY(-20px);
+    animation-timing-function: ease-in-out;
+  }
+}
+
 .animate-none{
   animation: none;
 }
@@ -19204,6 +19238,14 @@ video {
 
 .animate-bounce{
   animation: bounce 1s infinite;
+}
+
+.animate-float{
+  animation: float 3s infinite;
+}
+
+.animate-refloat{
+  animation: refloat 3s infinite;
 }
 
 @media (min-width: 640px){
@@ -37801,6 +37843,14 @@ video {
 
   .sm\:animate-bounce{
     animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-float{
+    animation: float 3s infinite;
+  }
+
+  .sm\:animate-refloat{
+    animation: refloat 3s infinite;
   }
 }
 
@@ -56400,6 +56450,14 @@ video {
   .md\:animate-bounce{
     animation: bounce 1s infinite;
   }
+
+  .md\:animate-float{
+    animation: float 3s infinite;
+  }
+
+  .md\:animate-refloat{
+    animation: refloat 3s infinite;
+  }
 }
 
 @media (min-width: 1024px){
@@ -74998,6 +75056,14 @@ video {
   .lg\:animate-bounce{
     animation: bounce 1s infinite;
   }
+
+  .lg\:animate-float{
+    animation: float 3s infinite;
+  }
+
+  .lg\:animate-refloat{
+    animation: refloat 3s infinite;
+  }
 }
 
 @media (min-width: 1280px){
@@ -93595,5 +93661,13 @@ video {
 
   .xl\:animate-bounce{
     animation: bounce 1s infinite;
+  }
+
+  .xl\:animate-float{
+    animation: float 3s infinite;
+  }
+
+  .xl\:animate-refloat{
+    animation: refloat 3s infinite;
   }
 }
